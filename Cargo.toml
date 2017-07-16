@@ -1,0 +1,9 @@
+[package]
+name = "nixops-dns"
+version = "0.1.0"
+authors = ["mhsjlw <mhsjlw@users.noreply.github.com>"]
+
+[dependencies]
+trust-dns = "0.10.5"
+trust-dns-server = "0.10.5"
+rusqlite = "^0.9.5"
